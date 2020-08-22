@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TodayWeather</string>
+
+    <string name="API_KEY">c3fa51e3fdb68faa8b4e48256f5b1dbf</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/weatherimage"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/cloud_outline"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Area Name"
+        android:id="@+id/areaName"
+        android:layout_toRightOf="@id/weatherimage"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/weatherimage"
+        android:layout_below="@id/areaName"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:text="Description"
+        android:id="@+id/description"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/temp"
+        android:textSize="30sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_toRightOf="@id/areaName"
+        android:layout_below="@id/description"
+        android:text="30 °C"/>
+
+
+
+</RelativeLayout>
